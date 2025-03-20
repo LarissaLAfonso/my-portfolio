@@ -1,0 +1,117 @@
+body {
+    /* Set line height to 1.5 times the font size
+       and use the OS’s UI font as the website font
+     */
+    font: 100%/1.5 system-ui;
+    max-width: 100ch;
+    margin: 0 auto;
+    padding: 1ch;
+    background-color: beige;
+   }
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin: 20px 0;
+    border-radius: 8px; 
+}
+
+h1 {
+    color : maroon;
+    margin-bottom: 1em;
+    font-size: 400%;
+}
+
+nav {
+    display: flex;
+    --border-color: rgb(255, 223, 223);
+}
+
+nav a {
+    flex:1;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 0.1em;
+    margin-bottom: 0.01em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color : var(--border-color);
+}
+
+nav a.current {
+    border-bottom-width: 0.4em;
+    border-bottom-color: rgb(255, 223, 223);
+    padding-bottom: 1em;
+}
+
+:root {
+    --color-accent: maroon;
+  }
+  
+nav a:hover {
+    border-bottom-width:0.4em;
+    border-bottom-style:solid;
+    border-bottom-color:var(--color-accent);
+    padding-bottom:0.1em;
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+}
+
+
+input,textarea,button {
+    font: inherit;
+}  
+
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+}
+form label {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+#button, label{
+    grid-column: 1 / -1;
+}
+
+img{
+    max-width: 100%;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns : repeat(auto-fill, minmax(15em, 1fr));
+    min-width: 15em;
+    max-width: 1fr;
+}
+
+article{
+    margin: 10px;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+article h2{
+    margin: 0;
+}
+
+.color-scheme {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+select {
+    position: static; /* Remove absolute positioning */
+    margin: 0;
+    padding: 4px;
+}
