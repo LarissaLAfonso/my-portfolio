@@ -1,8 +1,12 @@
+<svelte:head>
+    <title>Contact me</title>
+</svelte:head>
+
 <h1>Contact</h1>
 
 <!-- Form (to collect input); specifies where the date will be sent; mailto opens
 the user's default email to send one to larissahamlet@gmail.com -->
-<form action="mailto:larissahamlet@gmail.com" method="get">
+<form action="mailto:larissahamlet@gmail.com">
     <label for="email">Email:</label><br>
     <input name="email", type="email"><br>
 

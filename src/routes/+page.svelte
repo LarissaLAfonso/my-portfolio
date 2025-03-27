@@ -1,3 +1,12 @@
+<svelte:head>
+    <title>Larissa's page</title>
+</svelte:head>
+
+<script>
+    import projects from "$lib/projects.json";
+    import Project from "$lib/Project.svelte";
+</script>
+
 <h1>Larissa Lemos Afonso</h1>
     
 
@@ -6,3 +15,10 @@
 
 <p>I'm majoring in data science and artificial intelligence at FGV EMAp.</p>
 <p>I like statistics, working out and Japanese language/culture :)</p>
+
+
+<div class="projects">
+    {#each projects.slice(0, 3) as p}
+        <Project data={p} />
+    {/each}
+</div>
