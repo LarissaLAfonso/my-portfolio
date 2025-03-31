@@ -1,23 +1,23 @@
 [
 	{
-		"title": "Lorem ipsum dolor sit.",
-		"image": "https://i.etsystatic.com/iap/a0f246/5502938083/iap_640x640.5502938083_69958kp0.jpg",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+		"title": "Riemannian geometry of parameter space",
+		"image": "https://www.researchgate.net/publication/352393226/figure/fig1/AS:1132455515963393@1647009843559/Basic-notions-of-Riemannian-geometry-mathcalM-is-a-Riemannian-manifold-A-smooth.jpg",
+		"description": "We try to  incorporate parameter space geometry in approximations of the predictive distrivution. That is usually done by sampling points on the tangent space and then taking their image via exponential map. As that involves solving teh geodesic equation, intrinsic geometry information is retained."
 	},
 	{
-		"title": "Architecto minima sed omnis?",
-		"image": "https://i.etsystatic.com/iap/a0f246/5502938083/iap_640x640.5502938083_69958kp0.jpg",
-		"description": "Est, reiciendis aspernatur debitis maxime et itaque animi sit quod quo, tempore incidunt tempora dignissimos exercitationem enim numquam quam quaerat optio laborum ut unde hic delectus laboriosam? Quasi, cupiditate corporis."
+		"title": "Moving out",
+		"image": "https://media.newyorker.com/photos/5f65071a648cd10686f11247/master/w_2560%2Cc_limit/shouts-moving-out.jpg",
+		"description": "I'm moving out, and I've made some Uber drivers very unhappy with that fact."
 	},
 	{
-		"title": "Asperiores rem repellendus doloremque.",
-		"image": "https://i.etsystatic.com/iap/a0f246/5502938083/iap_640x640.5502938083_69958kp0.jpg",
-		"description": "Eligendi tenetur quae quos recusandae est. Cumque, voluptatem. Quo nihil dignissimos molestiae explicabo praesentium aspernatur debitis, illo rerum possimus quam ducimus earum nulla officiis maiores itaque repellat corporis soluta labore?"
+		"title": "Statistics(?)",
+		"image": "https://miro.medium.com/v2/resize:fit:1186/1*354JWR3KRpr-enwcyCywOQ.png",
+		"description": "Some measure theorical things are lacking. But Fisher's cool, I'll have to agree with Cox."
 	},
 	{
-		"title": "Laudantium reprehenderit placeat perspiciatis.",
-		"image": "https://i.etsystatic.com/iap/a0f246/5502938083/iap_640x640.5502938083_69958kp0.jpg",
-		"description": "Quo minus perferendis nulla corrupti repellat dolorem dolore assumenda sit minima ducimus quidem ullam, id ipsa dicta tempora laborum officiis unde possimus cumque nobis alias inventore! Ullam repudiandae iusto nam."
+		"title": "Viz",
+		"image": "https://cdn.prod.website-files.com/5dbb30f00775d4350591a4e5/6335d467fb8c44e5fb2c0036_javascript%20introduction%20microverse%20770%20(1).webp",
+		"description": "It's been harder than I'd think. Everything that involves code is always so mysterious."
 	},
 	{
 		"title": "Consequuntur autem eos facere.",

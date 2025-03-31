@@ -8,10 +8,10 @@
 the user's default email to send one to larissahamlet@gmail.com -->
 <form action="mailto:larissahamlet@gmail.com">
     <label for="email">Email:</label><br>
-    <input name="email", type="email"><br>
+    <input name="email" type="email"><br>
 
     <label for="subject">Subject:</label><br>
-    <input name="subject", type="text"><br><br>
+    <input name="subject" type="text"><br><br>
 
     <label for="body">Write email</label><br>
     <textarea name="body"></textarea><br>

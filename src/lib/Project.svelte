@@ -4,7 +4,7 @@
 </script>
 
 <article>
-    <svelte:element this={"h" + hLevel}>{data.title}</svelte:element>
+    <svelte:element this={"h" + hLevel}>{data.title}</svelte:element> 
     <img src={data.image} alt=""/>
     <p>
         {data.description}
@@ -17,5 +17,8 @@
     }
     img {
         height: 12em;
+    }
+    h2 {
+        margin-top: 10ch;
     }
 </style>
